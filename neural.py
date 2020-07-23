@@ -8,6 +8,8 @@ import random, itertools
 
 VALOR_UMBRAL = 1
 TASA_APRENDIZAJE = .3
+
+#Producto cartesiano (1, 0) X (1, 0)
 C_E = CASOS_ENTRADA =  tuple(
 				itertools.product((1,0), (1,0))
 			)
